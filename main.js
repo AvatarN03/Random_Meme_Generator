@@ -7,6 +7,7 @@ const spinner = document.querySelector('.spinner');
 const updateDetails = (data_title, data_author) => {
     title.innerHTML = data_title;
     author.innerHTML = data_author;
+    generate.style.color = ''
     console.log('hii3');
 }
 
@@ -16,6 +17,7 @@ const generateMeme = () => {
     image.style.display = 'none';
     title.style.display = 'none';
     author.style.display = 'none';
+    generate.style.color = '#dddeee'
     console.log('hii');
 
     fetch('https://meme-api.com/gimme/wholesomememes')
