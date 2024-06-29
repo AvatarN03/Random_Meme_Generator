@@ -8,6 +8,9 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: "Playwrite IT Moderna";
+  font-optical-sizing: auto;
+  
 }
 
 html {
