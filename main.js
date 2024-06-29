@@ -17,7 +17,7 @@ const generateMeme = () => {
     image.style.display = 'none';
     title.style.display = 'none';
     author.style.display = 'none';
-    generate.style.color = '#dddeee'
+    generate.style.color = '#dddeee';
     console.log('hii');
 
     fetch('https://meme-api.com/gimme/wholesomememes')
